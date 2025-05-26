@@ -1,4 +1,3 @@
-import React from 'react'
 import herovid from '../assets/herovid.mp4'
 import img1 from '../assets/img1.jpg'
 import img2 from '../assets/img2.jpg'
@@ -11,7 +10,7 @@ const Gallery = () => {
         <div className='flex flex-row gap-3 justify-between'>
             <video
                 src={herovid}
-                // autoPlay
+                autoPlay
                 muted
                 loop
                 playsInline

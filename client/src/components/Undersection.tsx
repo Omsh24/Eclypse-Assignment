@@ -1,4 +1,3 @@
-import React from 'react'
 import undervid from '../assets/undervid.mp4'
 import umg1 from '../assets/umg1.jpg'
 import umg2 from '../assets/umg2.jpg'
@@ -9,7 +8,7 @@ const Undersection = () => {
         <div className='md:w-[50%] w-full'>
             <video
                 src={undervid}
-                // autoPlay
+                autoPlay
                 muted
                 loop
                 playsInline

@@ -1,4 +1,3 @@
-import React from 'react';
 import herovid from '../assets/herovid.mp4'
 
 const Hero = () => {
@@ -13,7 +12,7 @@ const Hero = () => {
         <div>
           <video
             src={herovid}
-            // autoPlay
+            autoPlay
             muted
             loop
             playsInline
